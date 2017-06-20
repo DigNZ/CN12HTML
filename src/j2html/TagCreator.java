@@ -488,12 +488,12 @@ public class TagCreator {
     public static ContainerTag li(Attr.ShortForm shortAttr, String text)            { return Attr.addTo(new ContainerTag("li").withText(text), shortAttr); }
     public static ContainerTag li(Attr.ShortForm shortAttr, DomContent... dc)       { return Attr.addTo(new ContainerTag("li").with(dc), shortAttr); }
 
-    public static ContainerTag main()                                               { return new ContainerTag("main"); }
-    public static ContainerTag main(String text)                                    { return new ContainerTag("main").withText(text); }
-    public static ContainerTag main(DomContent... dc)                               { return new ContainerTag("main").with(dc); }
-    public static ContainerTag main(Attr.ShortForm shortAttr)                       { return Attr.addTo(new ContainerTag("main"), shortAttr); }
-    public static ContainerTag main(Attr.ShortForm shortAttr, String text)          { return Attr.addTo(new ContainerTag("main").withText(text), shortAttr); }
-    public static ContainerTag main(Attr.ShortForm shortAttr, DomContent... dc)     { return Attr.addTo(new ContainerTag("main").with(dc), shortAttr); }
+    public static ContainerTag mainTag()                                               { return new ContainerTag("main"); }
+    public static ContainerTag mainTag(String text)                                    { return new ContainerTag("main").withText(text); }
+    public static ContainerTag mainTag(DomContent... dc)                               { return new ContainerTag("main").with(dc); }
+    public static ContainerTag mainTag(Attr.ShortForm shortAttr)                       { return Attr.addTo(new ContainerTag("main"), shortAttr); }
+    public static ContainerTag mainTag(Attr.ShortForm shortAttr, String text)          { return Attr.addTo(new ContainerTag("main").withText(text), shortAttr); }
+    public static ContainerTag mainTag(Attr.ShortForm shortAttr, DomContent... dc)     { return Attr.addTo(new ContainerTag("main").with(dc), shortAttr); }
 
     public static ContainerTag map()                                                { return new ContainerTag("map"); }
     public static ContainerTag map(String text)                                     { return new ContainerTag("map").withText(text); }
